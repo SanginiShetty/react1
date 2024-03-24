@@ -7,10 +7,11 @@ function App() {
   return (
     <div className="App">
       <div className="text">
-        <h1>Email</h1>
+        <h1>EMAIL</h1>
         <input className="box" type="text" value={count} />
       </div>
-      <div className="card">
+      <div className="card" >
+        
         <button onClick={() => setCount10((count) => count + 1)}>+1</button>
         <button onClick={() => setCount10((count) => count - 1)}>-1</button>
 
